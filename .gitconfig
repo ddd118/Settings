@@ -1,0 +1,44 @@
+[user]
+	name = kinao
+	email = inao-kento@zanthing.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+	autocrlf = input
+	ignorecase = false
+	eol = lf
+[fetch]
+	prune = true
+	pruneTags = true
+[pull]
+	rebase = false
+[rebase]
+	autoStash = true
+[merge]
+	conflictstyle = zdiff3
+[rerere]
+	enabled = true
+	autoUpdate = true
+[branch]
+	autosetuprebase = always
+[diff]
+	algorithm = histogram
+	colorMoved = default
+[log]
+	date = iso-local
+[push]
+	default = simple
+[gtr "worktrees"]
+	dir = .worktrees
+[gtr "editor"]
+	default = code
+[gtr "ai"]
+	default = claude
+[gtr "copy"]
+	includeDirs = .notes
+	include = todo.txt
+	include = inbox.txt
+	include = someday.txt
+	include = done.txt
+	include = waiting.txt
